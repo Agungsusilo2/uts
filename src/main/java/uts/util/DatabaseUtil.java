@@ -10,7 +10,7 @@ public class DatabaseUtil {
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
         hikariConfig.setJdbcUrl("jdbc:mysql://localhost:3306/belajar_java_database?serverTimezone=Asia/Jakarta");
         hikariConfig.setUsername("root");
-        hikariConfig.setPassword("agung");
+        hikariConfig.setPassword("");
 
         hikariConfig.setMinimumIdle(5);
         hikariConfig.setMaximumPoolSize(100);
